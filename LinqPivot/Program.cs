@@ -10,7 +10,7 @@ using System.Text;
 namespace LinqPivot {
     class Program {
 
-        static void Main(string[] args) {
+        static void Main(string[] args) { 
             DataTable dt = LoadDataTable();
             Console.WriteLine("cols: {0}, rows: {1}", dt.Columns.Count, dt.Rows.Count);
 
